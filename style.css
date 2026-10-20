@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e4389;
+    color: #fff;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2%;
+}
+header nav .logo {
+    width: 100px;
+}
+header nav .links {
+    display: flex;
+    gap: 20px;
+}
+header nav .links a {
+    text-decoration: none;
+    color: #fff;
+}
